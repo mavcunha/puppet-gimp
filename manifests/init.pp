@@ -6,6 +6,6 @@
 class gimp {
   package { 'GNU Image Manipulation Program':
     provider => 'appdmg',
-    source   => 'ftp://ftp.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.10-dmg-1.dmg',
+    source   => 'http://ftp.gimp.org/pub/gimp/v2.8/osx/gimp-2.8.10-dmg-1.dmg',
   }
 }
